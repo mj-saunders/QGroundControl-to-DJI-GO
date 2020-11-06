@@ -1,3 +1,22 @@
+## Why?
+
+QGroundControl is great! It's open source and provides the ability to easily
+produce "survey" flight paths, which often costs a lot of money to achieve
+via other apps and software.
+
+Unfortunately it does not work with DJI drones.
+Some great looking work has been done with https://github.com/diux-dev/rosettadrone
+which seems to provide this capacity.
+I have not tested it, but looks cool.
+
+For one reason or another, I decided to just use the flight plan output from
+QGroundControl and wrangle it into a shape that DJI GO 4 is happy with.
+This way I can use the stock DJI app for now, until I have tested, and am
+comfortable that the `rosettadrone` approach is stable for my uses.
+
+And I get to save masses of time with survey-type waypoints :D
+
+
 ## Description
 
 Convert QGroundControl survey waypoints to DJI GO 4 waypoints 2.0.
